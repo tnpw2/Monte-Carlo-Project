@@ -73,13 +73,15 @@ plt.subplots_adjust(wspace=0.25, hspace=0)
 
 #Note to user as figure is clearest in full screen
 print("Note, the figure is best viewed in full screen mode")
-while True:
-    save = input("Would you like to save a pdf of the figure? Enter y/n only: ")
-    if save == 'y':
-        plt.savefig("ln2Convergence.pdf")
-        break
-    elif save == 'n':
-        break
-    else:
-        continue
+
+#Code to give option of saving the figure generated as a pdf
+#while True:
+#    save = input("Would you like to save a pdf of the figure? Enter y/n only: ")
+#    if save == 'y':
+#        plt.savefig("ln2Convergence.pdf")
+#        break
+#    elif save == 'n':
+#        break
+#    else:
+#        continue
 plt.show()

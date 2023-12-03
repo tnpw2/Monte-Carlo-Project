@@ -75,6 +75,7 @@ plt.subplots_adjust(wspace=0.25, hspace=0)
 print("Note, the figure is best viewed in full screen mode")
 
 #Code to give option of saving the figure generated as a pdf
+#Disabled here to prevent unwanted files being created
 #while True:
 #    save = input("Would you like to save a pdf of the figure? Enter y/n only: ")
 #    if save == 'y':
